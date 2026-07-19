@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -oP 'width: [0-9]{3,4}px' index.html)",
+      "Bash(awk 'NR==376' index.html)",
+      "Bash(grep -oP '.{0,40}760px.{0,40}')",
+      "Bash(awk 'NR==388' index.html)",
+      "Bash(node -e ' *)"
+    ]
+  }
+}
